@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Event Invitation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>You're Invited!</h1>
+    <p>Join us for an unforgettable night 🎉</p>
+  </header>
+
+  <section class="event-info">
+    <h2>Event Details</h2>
+    <p><strong>Date:</strong> Saturday, June 15, 2025</p>
+    <p><strong>Time:</strong> 8:00 PM</p>
+    <p><strong>Location:</strong> Club Zen, Av. Libertador 1234, CABA</p>
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps?q=Club+Zen,+CABA&output=embed"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+  </section>
+
+  <section class="rsvp">
+    <h2>Confirm your attendance</h2>
+    <form id="rsvp-form">
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Your email" required />
+      <select name="attendance" required>
+        <option value="">Will you attend?</option>
+        <option value="yes">Yes, I’ll be there!</option>
+        <option value="no">Sorry, I can't</option>
+      </select>
+      <button type="submit">Submit RSVP</button>
+    </form>
+    <p class="thanks-message" style="display:none;">Thanks for confirming! 🎈</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
