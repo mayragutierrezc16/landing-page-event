@@ -62,7 +62,7 @@ Let me know if you'd like help setting that up.
 
 ## 💰 Pricing
 
-**Price:** $7  
+**Price:** $10 
 **License:** Personal & Commercial use  
 **Includes:** Editable HTML/CSS/JS files + Instructions
 
